@@ -2,6 +2,7 @@ $(document).ready(function () {
     let counter = 0;
     let enemyCounter = 0;
     let myHealth, enemyHealth, myAttack = 8, enemyAttack, myPlayer, enemyPlayer;
+
     $(".bigDiv").click(function () {
         if (counter === 0) {
             let player = $(this);
