@@ -1,0 +1,39 @@
+body {
+    background: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#starWars{
+    width: 100%;
+    font-size: 2em;
+    text-align: right;
+}
+figure {
+    align-content: center;
+    width: 50%;
+    border-radius: 5%;
+    border: solid white 0.2em;
+    font-family: 'Orbitron', sans-serif;
+    display: inline-block;
+}
+figcaption {
+    text-align: center;
+    color: white;
+}
+span {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
+.anakin{
+    color: white;
+}
+.enemies {
+    display: inline-block;
+}
+.someClass > figure {
+    display: inline-block;
+    width: 25%;
+    margin-right: 1em;
+}

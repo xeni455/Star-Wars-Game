@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row title text-center">
+            <div class="col">
+                <span id="starWars" class="text-right">RPG STAR WARS GAME</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row biggerChoice">
+        </div>
+        <div class="row myChoice">
+        </div>
+        <div class="row smallerChoice">
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-3 bigDiv" id="anakin" value="100">
+                <figure class="figs">
+                    <figcaption>
+                        Anakin
+                    </figcaption>
+                    <img src="assets/images/Anakin.png" class="img-fluid">
+                    <figcaption class="points">
+                        100
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-xs-12 col-md-3 bigDiv" id="sidius">
+                <figure class="figs">
+                    <figcaption>
+                        Darth Sidius
+                    </figcaption>
+                    <img src="assets/images/Darth-Sidious-02-icon.png" class="img-fluid">
+                    <figcaption class="points">
+                        150
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-xs-12 col-md-3 bigDiv" id="obiWan">
+                <figure class="figs">
+                    <figcaption>
+                        Obi-Wan
+                    </figcaption>
+                    <img src="assets/images/Master-Obi-Wan-icon.png" class="img-fluid">
+                    <figcaption class="points">
+                        180
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-xs-12 col-md-3 bigDiv" id="yoda">
+                <figure class="figs">
+                    <figcaption>
+                        Yoda
+                    </figcaption>
+                    <img src="assets/images/Yoda-01-icon.png" class="img-fluid">
+                    <figcaption class="points">
+                        120
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="row characterRow">
+            <span>Your Character</span>
+        </div>
+        <div class="row enemiesToAttach">
+            <span>Enemies available to Attack.</span>
+            <!-- <div class="col-md-3"></div> -->
+        </div>
+        <div class="row enemies"></div>
+        <div class="row">
+            <span>Fight Section.</span>
+        </div>
+
+        <button class="btn">Attack</button>
+        <div class="row defender">
+            <span>Defender</span>
+        </div>
+        <div class="row enemy">
+        </div>
+        <div class="row">
+            <span id="final"></span>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
